@@ -4,7 +4,7 @@ public class jaggedArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int a[][]=new int [4][];  //decaration jagged array
+int a[][]=new int [4][];  //decaration Jagged array
 		
 	    a[0]=new int[3];
 	    a[1]=new int[2];
