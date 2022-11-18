@@ -5,7 +5,8 @@ import java.util.LinkedList;
 
 public class IteratorDemo {
 	
-	void display(LinkedList<String> list) {
+	void display(LinkedList<String> list)// here we have make a method to display // and also here we have created the object. //This parameter is of this type 
+	{
 		Iterator<String> it=list.iterator();
 		while(it.hasNext())
 		{
@@ -26,7 +27,7 @@ public class IteratorDemo {
 		
 		System.out.println(player);
 		
-		IteratorDemo im=new IteratorDemo()	;
+		IteratorDemo im=new IteratorDemo()	;      // to access each element in the list we make use of iterator 
 		im.display(player);
       
 
