@@ -1,5 +1,5 @@
 package com.multithreading;
-class Eclipse extends Thread{
+class subtract extends Thread{
 	
 	public void run()
 	{

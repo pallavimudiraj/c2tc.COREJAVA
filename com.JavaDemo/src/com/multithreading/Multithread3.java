@@ -1,6 +1,6 @@
 package com.multithreading;
 
-class Eclipse implements Runnable{
+class add implements Runnable{
 	
 	public void run()
 	{
